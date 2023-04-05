@@ -1,0 +1,64 @@
+
+/* CSS */
+.btns {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 12px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 18px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 10px 13px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  height: 40px;
+  min-width: 200px;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.btns:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 12px;
+  border-width: 0 0 3px;
+  bottom: -3px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.btns:main,
+.btns:focus {
+  user-select: auto;
+}
+
+.btns:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.btns:disabled {
+  cursor: auto;
+}

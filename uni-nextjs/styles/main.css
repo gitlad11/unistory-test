@@ -1,0 +1,45 @@
+.user-container{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.navigation{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+.Main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.book-list{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.book-list div{
+    width: 33%;
+}
+.book-card{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    min-height: 380px;
+    width: 300px!important;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color:rgb(230, 230, 230);
+    text-align: center;
+    
+}
+.book-card img{
+    background-color: aliceblue;
+}
